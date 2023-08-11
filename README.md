@@ -13,14 +13,17 @@ Faça as formatações de acordo com a paleta de cores escolhida.
 
 """
 <p align="center">
-<img src="" alt="" width="50%"/> 
+<img src="https://raw.githubusercontent.com/GabpsX/atividade_pratica_do-modulo_2/main/fotos/1.png" alt="" width="50%"/> 
 </p>
 <hr>
 <p align="center">
-<img src="" alt="" width="50%"/> 
+<img src="https://raw.githubusercontent.com/GabpsX/atividade_pratica_do-modulo_2/main/fotos/2.png" alt="" width="50%"/> 
 </p>
-
-
+<hr>
+<p align="center">
+<img src="https://raw.githubusercontent.com/GabpsX/atividade_pratica_do-modulo_2/main/fotos/3.jpeg" alt="" width="50%"/> 
+</p>
+<hr>
 
 	Algoritmo AgenciaDeViagens
 	
