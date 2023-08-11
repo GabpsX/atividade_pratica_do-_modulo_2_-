@@ -9,7 +9,7 @@ Criar as páginas: Home, Destino, Promoções, Contato e as demais páginas de a
 
 As páginas devem ser responsivas ou adaptáveis. 
 
-Faça as formatações de acordo com a paleta de cores escolhida. 
+Fazer as formatações de acordo com a paleta de cores escolhida. 
 
 """
 <p align="center">
