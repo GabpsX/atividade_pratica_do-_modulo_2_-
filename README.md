@@ -72,4 +72,4 @@ Faça as formatações de acordo com a paleta de cores escolhida.
 	
 	    Enquanto opcao != 5
 
-Fim Função
+	Fim Função
