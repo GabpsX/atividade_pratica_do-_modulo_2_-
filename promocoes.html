@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>ViagemVentures</title>
+     <link rel="stylesheet" href="src/style/main.css">
+     <link rel="stylesheet" href="src/style/desktop.css">
+     <link rel="stylesheet" href="src/style/mobile.css">
+     <link rel="stylesheet" href="src/fontawesome/css/all.css">
+</head>
+<body>
+     <header>
+          <div class="header">
+               <div class="logo">               
+                    <i class="fa-solid fa-dove"></i>
+                    <h1>ViagemVentures</h1>
+               </div>
+               <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input class="pesquisa" type="text" placeholder="Pesquisar destinos...">
+               </div>
+
+               <div class="menu">
+                    
+                    <div class="menu-icon">
+                         <i class="fa-solid fa-bars"></i>    
+                    </div>
+                    <div class="login">
+                         <i class="fa-solid fa-user"></i>
+       
+                    </div>
+                    
+               </div>
+
+               <div class="item-login">
+                    <ul>
+                         <li><i class="fa-solid fa-right-to-bracket"></i>Entrar</li>
+                         <li><i class="fa-solid fa-square-plus"></i>Cadastrar-se</li>
+                    </ul>
+               </div>
+
+               <div class="input-mobile">
+                    <input class="pesquisa_mobile" type="text" placeholder="Pesquisar destinos...">
+               </div>
+          </div>
+     </header>
+     <div class="menu-i">
+          <div class="menu-items">
+               <ul>
+                    <li class="destino"><i class="fa-solid fa-location-dot"></i>Destino</li>
+                    <li class="promocoes"><i class="fa-solid fa-money-bill"></i>Promoções</li>
+                    <li class="pacotes"><i class="fa-solid fa-suitcase"></i>Pacotes</li>
+                    <li class="hoteis"><i class="fa-solid fa-hotel"></i>Hotéis</li>
+                    <li class="onibus"><i class="fa-solid fa-bus"></i>Ônibus</li>
+                    <li class="voos"><i class="fa-solid fa-plane-departure"></i>Voos</li>
+                    <li class="em-alta"><i class="fa-solid fa-fire"></i>Em alta</li>
+               </ul>
+          </div>
+     </div>
+     
+
+     <main>
+
+          <div class="opcoes-viagem">
+               <div class="opcao" data-value="nacional">Nacional</div>
+               <div class="opcao" data-value="internacional">Internacional</div>
+           </div>
+     
+           <div class="voos">
+               <div class="voos-h2">
+                    <h3>Ofertas Promocionais</h3>
+               </div>
+           </div>
+           <div class="ofertas">
+     
+           </div>
+           <div class="ofertas-i">
+               <button class="mostrar-mais"><i class="fa-solid fa-plus"></i>Mostrar mais</button>
+           </div>
+
+     </main>
+
+     <div class="footer-i">
+
+          <div class="footer">
+               <div class="footer-item">
+                    <i class="fa-solid fa-headset"></i>
+                    <p>Atendimento</p>
+                </div>
+                <div class="footer-item">
+                    <i class="fa-solid fa-map-marker"></i>
+                    <p>Endereço: Rua 000</p>
+                </div>
+                <div class="footer-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>Email: contato@viagemventures.com</p>
+                </div>
+                <div class="footer-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>Telefone: (00) 0000-0000</p>
+                </div>
+                <div class="footer-item">
+                    <i class="fa-solid fa-dove"></i>
+                    <h1>ViagemVentures</h1>
+                </div>
+          </div>
+
+      </div>
+</body>
+<script src="src/javascript/voos.js"></script>
+<script src="src/javascript/menu.js"></script>
+<script src="src/javascript/redir.js"></script>
+<script>
+     // Instância da classe
+     const insPromocoes = new ListarItens();
+     // Chamando método
+     insPromocoes.mostrarPromocoes();
+</script>
+</html>

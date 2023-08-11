@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Roboto&display=swap');
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Arimo', sans-serif;
+     font-family: 'Roboto', sans-serif;
+     list-style: none;
+     text-decoration: none;
+     user-select: none;
+     scroll-behavior: smooth;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+     text-rendering: optimizeLegibility;
+     transition: all 400ms ease-in-out;
+}
+html, body {
+     margin: 0;
+     padding: 0;
+     height: 100%;
+     overflow-x: hidden;
+}
+
+main {
+     max-width: 1920px;
+     margin: auto;
+}
+
+header {
+     border-bottom: 1px solid rgba(194, 194, 194, 0.3);
+     position: sticky;
+     position: -webkit-sticky;
+     top: 0;
+     z-index: 2;
+     background-color: rgb(255, 255, 255);
+}

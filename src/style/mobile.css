@@ -1,0 +1,65 @@
+@media (max-width: 710px) {
+     .logo>h1 {
+         font-size: 1rem;
+    }
+     .search {
+         border-radius: 30px;
+         height: 45px;
+         border: 0;
+         box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+         padding: 0rem 1rem;
+         overflow: hidden;
+    }
+     .search>i {
+         margin-right: 0rem;
+    }
+     .pesquisa {
+         display: none;
+    }
+     .menu-i {
+         background-color: rgb(18, 101, 173);
+    }
+     .menu-items {
+         margin: auto;
+         display: flex;
+         align-items: center;
+         position: relative;
+    }
+     .menu-items ul {
+         color: white;
+         height: 80px;
+         display: flex;
+         align-items: center;
+         justify-content: flex-start;
+         padding-left: 10px;
+         overflow-x: auto;
+    }
+     .menu-items ul li {
+         margin-right: 0.5rem;
+    }
+     .menu-items ul li {
+         position: relative;
+         min-width: fit-content;
+         margin-right: 0.5rem;
+    }
+     .menu-items ul li i {
+         margin-right: 0.5rem;
+    }
+     .menu-items ul::-webkit-scrollbar {
+         width: 10px;
+    }
+     .menu-items ul::-webkit-scrollbar-track {
+         background: #f1f1f1;
+    }
+     .menu-items ul::-webkit-scrollbar-thumb {
+         background: #92cbf1;
+    }
+     .menu-items ul::-webkit-scrollbar-thumb:hover {
+         background: #92cbf1;
+    }
+     .voos-h2 {
+         text-align: center;
+         font-size: 0.9em;
+    }
+}
+ 
