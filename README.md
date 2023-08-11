@@ -12,6 +12,13 @@ As páginas devem ser responsivas ou adaptáveis.
 Faça as formatações de acordo com a paleta de cores escolhida. 
 
 """
+<p align="center">
+<img src="" alt="" width="50%"/> 
+</p>
+<hr>
+<p align="center">
+<img src="" alt="" width="50%"/> 
+</p>
 
 
 
